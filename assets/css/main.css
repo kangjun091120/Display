@@ -1,6 +1,6 @@
 
-@import url(fontawesome-all.min.css);
-@import url(fonts.googleapis.css);
+@import url('fontawesome-all.min.css');
+@import url('fonts.googleapis.css');
 html, body, div, span, h2, h3, p, a, img, ul, li,
 footer,
 section {
@@ -23,15 +23,9 @@ body {
 	list-style: none;
 }
 
-body {
-	-webkit-text-size-adjust: none;
-}
+
 
 /* Basic */
-
-	@-ms-viewport {
-		width: device-width;
-	}
 
 	body {
 		-ms-overflow-style: scrollbar;
@@ -112,7 +106,7 @@ body {
 	}
 
 	body {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Source Sans Pro', Helvetica, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
@@ -407,9 +401,6 @@ body {
 /* Actions */
 
 	ul.actions {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
 		display: flex;
 		cursor: default;
 		list-style: none;
@@ -485,23 +476,7 @@ body {
 
 		}
 
-/* Icons */
 
-/* Section/Article */
-
-/* Table */
-
-/* Banner (transitions) */
-
-/* Banner (style1) */
-
-/* Banner (style2) */
-
-/* Banner (style3) */
-
-/* Banner (style4) */
-
-/* Banner (style5) */
 
 /* Spotlight (transitions) */
 
@@ -527,9 +502,6 @@ body {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		-moz-justify-content: -moz-flex-end;
-		-webkit-justify-content: -webkit-flex-end;
-		-ms-justify-content: -ms-flex-end;
 		justify-content: flex-end;
 		position: relative;
 		overflow-x: hidden;
